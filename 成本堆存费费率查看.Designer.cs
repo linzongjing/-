@@ -381,7 +381,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "新增";
+            this.button1.Text = "新增协议";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -399,7 +399,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 0;
-            this.button3.Text = "作废";
+            this.button3.Text = "删除未生效";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -408,7 +408,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 0;
-            this.button4.Text = "编辑";
+            this.button4.Text = "编辑未生效";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -429,7 +429,7 @@
             this.button6.Text = "查看明细";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // 堆存费费率查看
+            // 成本堆存费费率查看
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -437,7 +437,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "堆存费费率查看";
+            this.Name = "成本堆存费费率查看";
             this.Text = "堆存费费率查看";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

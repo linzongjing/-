@@ -28,30 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("航次1");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("航次2");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("航次3");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("航次4");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("航次5");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("船名1", new System.Windows.Forms.TreeNode[] {
-            treeNode13,
-            treeNode14,
-            treeNode15,
-            treeNode16,
-            treeNode17});
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("航次1");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("航次2");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("船名2", new System.Windows.Forms.TreeNode[] {
-            treeNode19,
-            treeNode20});
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("船名3");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("船名4");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("船名4");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("航次1");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("航次2");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("航次3");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("航次4");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("航次5");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("船名1", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4,
+            treeNode5});
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("航次1");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("航次2");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("船名2", new System.Windows.Forms.TreeNode[] {
+            treeNode7,
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("船名3");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("船名4");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("船名4");
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.计算 = new System.Windows.Forms.Button();
             this.审核 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -112,7 +113,6 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -158,7 +158,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 0;
-            this.button6.Text = "补费用";
+            this.button6.Text = "补堆存";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button7
@@ -170,40 +170,49 @@
             this.button7.Text = "查看费率";
             this.button7.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(327, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "重新计费";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // treeView1
             // 
             this.treeView1.Location = new System.Drawing.Point(1, 190);
             this.treeView1.Name = "treeView1";
-            treeNode13.Name = "节点5";
-            treeNode13.Text = "航次1";
-            treeNode14.Name = "节点6";
-            treeNode14.Text = "航次2";
-            treeNode15.Name = "节点7";
-            treeNode15.Text = "航次3";
-            treeNode16.Name = "节点8";
-            treeNode16.Text = "航次4";
-            treeNode17.Name = "节点9";
-            treeNode17.Text = "航次5";
-            treeNode18.Name = "节点0";
-            treeNode18.Text = "船名1";
-            treeNode19.Name = "节点10";
-            treeNode19.Text = "航次1";
-            treeNode20.Name = "节点11";
-            treeNode20.Text = "航次2";
-            treeNode21.Name = "节点1";
-            treeNode21.Text = "船名2";
-            treeNode22.Name = "节点2";
-            treeNode22.Text = "船名3";
-            treeNode23.Name = "节点3";
-            treeNode23.Text = "船名4";
-            treeNode24.Name = "节点4";
-            treeNode24.Text = "船名4";
+            treeNode1.Name = "节点5";
+            treeNode1.Text = "航次1";
+            treeNode2.Name = "节点6";
+            treeNode2.Text = "航次2";
+            treeNode3.Name = "节点7";
+            treeNode3.Text = "航次3";
+            treeNode4.Name = "节点8";
+            treeNode4.Text = "航次4";
+            treeNode5.Name = "节点9";
+            treeNode5.Text = "航次5";
+            treeNode6.Name = "节点0";
+            treeNode6.Text = "船名1";
+            treeNode7.Name = "节点10";
+            treeNode7.Text = "航次1";
+            treeNode8.Name = "节点11";
+            treeNode8.Text = "航次2";
+            treeNode9.Name = "节点1";
+            treeNode9.Text = "船名2";
+            treeNode10.Name = "节点2";
+            treeNode10.Text = "船名3";
+            treeNode11.Name = "节点3";
+            treeNode11.Text = "船名4";
+            treeNode12.Name = "节点4";
+            treeNode12.Text = "船名4";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode18,
-            treeNode21,
-            treeNode22,
-            treeNode23,
-            treeNode24});
+            treeNode6,
+            treeNode9,
+            treeNode10,
+            treeNode11,
+            treeNode12});
             this.treeView1.Size = new System.Drawing.Size(209, 559);
             this.treeView1.TabIndex = 6;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
@@ -720,15 +729,6 @@
             // 
             this.Column4.HeaderText = "转栈费";
             this.Column4.Name = "Column4";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(327, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "重新计费";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // 成本堆存费
             // 
