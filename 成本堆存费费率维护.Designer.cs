@@ -29,29 +29,25 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button9 = new System.Windows.Forms.Button();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
@@ -65,29 +61,27 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
-            this.港口 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -98,84 +92,26 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Controls.Add(this.dateTimePicker2);
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Location = new System.Drawing.Point(0, 1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1072, 152);
+            this.groupBox1.Size = new System.Drawing.Size(1072, 90);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(972, 119);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "删除";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(972, 90);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "保存";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(972, 60);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "编辑";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.港口,
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column35,
-            this.Column36,
-            this.Column6,
-            this.Column7,
-            this.Column8,
-            this.Column9});
-            this.dataGridView1.Location = new System.Drawing.Point(0, 32);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(947, 120);
-            this.dataGridView1.TabIndex = 3;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(972, 32);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "新增";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "上海";
             // 
             // groupBox2
             // 
@@ -185,9 +121,9 @@
             this.groupBox2.Controls.Add(this.button6);
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.button8);
-            this.groupBox2.Location = new System.Drawing.Point(0, 159);
+            this.groupBox2.Location = new System.Drawing.Point(0, 97);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1084, 152);
+            this.groupBox2.Size = new System.Drawing.Size(1084, 167);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
@@ -198,9 +134,9 @@
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(667, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(353, 12);
+            this.label2.Size = new System.Drawing.Size(161, 24);
             this.label2.TabIndex = 11;
-            this.label2.Text = "费目的生效日期、截止日期必须在港口的生效日期截止日期范围内";
+            this.label2.Text = "费目不能重复\r\n有明细记录的费目不能删除。";
             // 
             // button5
             // 
@@ -216,8 +152,6 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column10,
-            this.Column11,
-            this.Column12,
             this.Column13,
             this.Column14,
             this.Column15,
@@ -227,41 +161,6 @@
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.Size = new System.Drawing.Size(545, 150);
             this.dataGridView2.TabIndex = 0;
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "费目";
-            this.Column10.Name = "Column10";
-            // 
-            // Column11
-            // 
-            this.Column11.HeaderText = "生效日期";
-            this.Column11.Name = "Column11";
-            // 
-            // Column12
-            // 
-            this.Column12.HeaderText = "截止日期";
-            this.Column12.Name = "Column12";
-            // 
-            // Column13
-            // 
-            this.Column13.HeaderText = "创建人";
-            this.Column13.Name = "Column13";
-            // 
-            // Column14
-            // 
-            this.Column14.HeaderText = "创建时间";
-            this.Column14.Name = "Column14";
-            // 
-            // Column15
-            // 
-            this.Column15.HeaderText = "更新人";
-            this.Column15.Name = "Column15";
-            // 
-            // Column16
-            // 
-            this.Column16.HeaderText = "更新时间";
-            this.Column16.Name = "Column16";
             // 
             // button6
             // 
@@ -297,9 +196,9 @@
             this.groupBox3.Controls.Add(this.button10);
             this.groupBox3.Controls.Add(this.button11);
             this.groupBox3.Controls.Add(this.button12);
-            this.groupBox3.Location = new System.Drawing.Point(0, 317);
+            this.groupBox3.Location = new System.Drawing.Point(0, 270);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1084, 206);
+            this.groupBox3.Size = new System.Drawing.Size(1084, 229);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             // 
@@ -330,6 +229,51 @@
             this.dataGridView3.RowTemplate.Height = 23;
             this.dataGridView3.Size = new System.Drawing.Size(947, 200);
             this.dataGridView3.TabIndex = 0;
+            // 
+            // Column17
+            // 
+            this.Column17.HeaderText = "箱类";
+            this.Column17.Name = "Column17";
+            // 
+            // Column18
+            // 
+            this.Column18.HeaderText = "箱状态";
+            this.Column18.Name = "Column18";
+            // 
+            // Column19
+            // 
+            this.Column19.HeaderText = "减免天";
+            this.Column19.Name = "Column19";
+            // 
+            // Column20
+            // 
+            this.Column20.HeaderText = "危险品";
+            this.Column20.Name = "Column20";
+            // 
+            // Column21
+            // 
+            this.Column21.HeaderText = "包干";
+            this.Column21.Name = "Column21";
+            // 
+            // Column27
+            // 
+            this.Column27.HeaderText = "创建人";
+            this.Column27.Name = "Column27";
+            // 
+            // Column28
+            // 
+            this.Column28.HeaderText = "创建时间";
+            this.Column28.Name = "Column28";
+            // 
+            // Column29
+            // 
+            this.Column29.HeaderText = "更新人";
+            this.Column29.Name = "Column29";
+            // 
+            // Column30
+            // 
+            this.Column30.HeaderText = "更新时间";
+            this.Column30.Name = "Column30";
             // 
             // button10
             // 
@@ -365,9 +309,9 @@
             this.groupBox4.Controls.Add(this.button14);
             this.groupBox4.Controls.Add(this.button15);
             this.groupBox4.Controls.Add(this.button16);
-            this.groupBox4.Location = new System.Drawing.Point(0, 529);
+            this.groupBox4.Location = new System.Drawing.Point(0, 476);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1084, 206);
+            this.groupBox4.Size = new System.Drawing.Size(1084, 259);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             // 
@@ -391,7 +335,7 @@
             this.dataGridView4.Location = new System.Drawing.Point(6, 11);
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.RowTemplate.Height = 23;
-            this.dataGridView4.Size = new System.Drawing.Size(539, 189);
+            this.dataGridView4.Size = new System.Drawing.Size(539, 242);
             this.dataGridView4.TabIndex = 0;
             // 
             // Column31
@@ -441,110 +385,151 @@
             this.button16.Text = "新增";
             this.button16.UseVisualStyleBackColor = true;
             // 
-            // 港口
+            // label3
             // 
-            this.港口.HeaderText = "港口";
-            this.港口.Name = "港口";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 17);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "协议名称";
             // 
-            // Column1
+            // textBox1
             // 
-            this.Column1.HeaderText = "码头";
-            this.Column1.Name = "Column1";
+            this.textBox1.Location = new System.Drawing.Point(66, 15);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(158, 21);
+            this.textBox1.TabIndex = 3;
             // 
-            // Column2
+            // label1
             // 
-            this.Column2.HeaderText = "类型";
-            this.Column2.Name = "Column2";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(241, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "港口";
             // 
-            // Column3
+            // textBox2
             // 
-            this.Column3.HeaderText = "版本号";
-            this.Column3.Name = "Column3";
+            this.textBox2.Location = new System.Drawing.Point(289, 15);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 21);
+            this.textBox2.TabIndex = 3;
             // 
-            // Column4
+            // label4
             // 
-            this.Column4.HeaderText = "生效日期";
-            this.Column4.Name = "Column4";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(408, 19);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 12);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "费率类型";
             // 
-            // Column5
+            // textBox3
             // 
-            this.Column5.HeaderText = "截止日期";
-            this.Column5.Name = "Column5";
+            this.textBox3.Location = new System.Drawing.Point(467, 15);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 21);
+            this.textBox3.TabIndex = 3;
             // 
-            // Column35
+            // label5
             // 
-            this.Column35.HeaderText = "生效";
-            this.Column35.Name = "Column35";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(576, 19);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 12);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "生效日期";
             // 
-            // Column36
+            // label6
             // 
-            this.Column36.HeaderText = "空保量";
-            this.Column36.Name = "Column36";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(760, 21);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "截止日期";
             // 
-            // Column6
+            // label7
             // 
-            this.Column6.HeaderText = "创建人";
-            this.Column6.Name = "Column6";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(12, 57);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 12);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "协议编号";
             // 
-            // Column7
+            // textBox6
             // 
-            this.Column7.HeaderText = "创建时间";
-            this.Column7.Name = "Column7";
+            this.textBox6.Location = new System.Drawing.Point(66, 52);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(158, 21);
+            this.textBox6.TabIndex = 3;
             // 
-            // Column8
+            // label8
             // 
-            this.Column8.HeaderText = "更新人";
-            this.Column8.Name = "Column8";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(241, 57);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(29, 12);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "码头";
             // 
-            // Column9
+            // textBox7
             // 
-            this.Column9.HeaderText = "更新时间";
-            this.Column9.Name = "Column9";
+            this.textBox7.Location = new System.Drawing.Point(289, 52);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(278, 21);
+            this.textBox7.TabIndex = 3;
             // 
-            // Column17
+            // dateTimePicker1
             // 
-            this.Column17.HeaderText = "箱类";
-            this.Column17.Name = "Column17";
+            this.dateTimePicker1.Location = new System.Drawing.Point(649, 15);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(105, 21);
+            this.dateTimePicker1.TabIndex = 4;
             // 
-            // Column18
+            // dateTimePicker2
             // 
-            this.Column18.HeaderText = "箱状态";
-            this.Column18.Name = "Column18";
+            this.dateTimePicker2.Location = new System.Drawing.Point(819, 15);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(105, 21);
+            this.dateTimePicker2.TabIndex = 4;
             // 
-            // Column19
+            // Column10
             // 
-            this.Column19.HeaderText = "减免天";
-            this.Column19.Name = "Column19";
+            this.Column10.HeaderText = "费目";
+            this.Column10.Name = "Column10";
             // 
-            // Column20
+            // Column13
             // 
-            this.Column20.HeaderText = "危险品";
-            this.Column20.Name = "Column20";
+            this.Column13.HeaderText = "创建人";
+            this.Column13.Name = "Column13";
             // 
-            // Column21
+            // Column14
             // 
-            this.Column21.HeaderText = "包干";
-            this.Column21.Name = "Column21";
+            this.Column14.HeaderText = "创建时间";
+            this.Column14.Name = "Column14";
             // 
-            // Column27
+            // Column15
             // 
-            this.Column27.HeaderText = "创建人";
-            this.Column27.Name = "Column27";
+            this.Column15.HeaderText = "更新人";
+            this.Column15.Name = "Column15";
             // 
-            // Column28
+            // Column16
             // 
-            this.Column28.HeaderText = "创建时间";
-            this.Column28.Name = "Column28";
+            this.Column16.HeaderText = "更新时间";
+            this.Column16.Name = "Column16";
             // 
-            // Column29
+            // button1
             // 
-            this.Column29.HeaderText = "更新人";
-            this.Column29.Name = "Column29";
-            // 
-            // Column30
-            // 
-            this.Column30.HeaderText = "更新时间";
-            this.Column30.Name = "Column30";
+            this.button1.Location = new System.Drawing.Point(819, 52);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(105, 32);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "保存";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // 成本堆存费费率维护
             // 
@@ -559,7 +544,6 @@
             this.Text = "堆存费应付费率维护";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
@@ -577,21 +561,8 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
@@ -610,18 +581,6 @@
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 港口;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column35;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column36;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column17;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column18;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column19;
@@ -631,5 +590,25 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column28;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column29;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column30;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
+        private System.Windows.Forms.Button button1;
     }
 }
