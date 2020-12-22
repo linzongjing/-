@@ -129,6 +129,12 @@
     <Compile Include="成本堆存费.Designer.cs">
       <DependentUpon>成本堆存费.cs</DependentUpon>
     </Compile>
+    <Compile Include="成本堆存费自动计费队列管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="成本堆存费自动计费队列管理.Designer.cs">
+      <DependentUpon>成本堆存费自动计费队列管理.cs</DependentUpon>
+    </Compile>
     <Compile Include="成本堆存费费率维护.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="成本堆存费.resx">
       <DependentUpon>成本堆存费.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="成本堆存费自动计费队列管理.resx">
+      <DependentUpon>成本堆存费自动计费队列管理.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="成本堆存费费率维护.resx">
       <DependentUpon>成本堆存费费率维护.cs</DependentUpon>
