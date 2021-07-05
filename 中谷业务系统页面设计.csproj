@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -71,6 +71,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -85,6 +86,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="稽核比对\业财数据稽核.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="稽核比对\业财数据稽核.Designer.cs">
+      <DependentUpon>业财数据稽核.cs</DependentUpon>
+    </Compile>
     <Compile Include="主页面.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +112,12 @@
     <Compile Include="保证金管理付.Designer.cs">
       <DependentUpon>保证金管理付.cs</DependentUpon>
     </Compile>
+    <Compile Include="外贸滞期费对账页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="外贸滞期费对账页面.Designer.cs">
+      <DependentUpon>外贸滞期费对账页面.cs</DependentUpon>
+    </Compile>
     <Compile Include="修箱pti管理.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +135,12 @@
     </Compile>
     <Compile Include="修箱港口和订舱港口映射配置.Designer.cs">
       <DependentUpon>修箱港口和订舱港口映射配置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="填写问卷.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="填写问卷.Designer.cs">
+      <DependentUpon>填写问卷.cs</DependentUpon>
     </Compile>
     <Compile Include="成本堆存费.cs">
       <SubType>Form</SubType>
@@ -153,6 +172,12 @@
     <Compile Include="成本堆存费费率查看.Designer.cs">
       <DependentUpon>成本堆存费费率查看.cs</DependentUpon>
     </Compile>
+    <Compile Include="稽核比对\提交项配置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="稽核比对\提交项配置.Designer.cs">
+      <DependentUpon>提交项配置.cs</DependentUpon>
+    </Compile>
     <Compile Include="新增保证金付.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,13 +190,58 @@
     <Compile Include="新增保证金收.Designer.cs">
       <DependentUpon>新增保证金收.cs</DependentUpon>
     </Compile>
+    <Compile Include="特殊业务模块.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="特殊业务模块.Designer.cs">
+      <DependentUpon>特殊业务模块.cs</DependentUpon>
+    </Compile>
+    <Compile Include="稽核比对\稽核比对.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="稽核比对\稽核比对.Designer.cs">
+      <DependentUpon>稽核比对.cs</DependentUpon>
+    </Compile>
+    <Compile Include="稽核比对\稽核比对管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="稽核比对\稽核比对管理.Designer.cs">
+      <DependentUpon>稽核比对管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="稽核比对\航线实算剔税利润表.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="稽核比对\航线实算剔税利润表.Designer.cs">
+      <DependentUpon>航线实算剔税利润表.cs</DependentUpon>
+    </Compile>
+    <Compile Include="维护参与问卷港口.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="维护参与问卷港口.Designer.cs">
+      <DependentUpon>维护参与问卷港口.cs</DependentUpon>
+    </Compile>
     <Compile Include="维护有效期.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="维护有效期.Designer.cs">
       <DependentUpon>维护有效期.cs</DependentUpon>
     </Compile>
+    <Compile Include="维护问卷对象.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="维护问卷对象.Designer.cs">
+      <DependentUpon>维护问卷对象.cs</DependentUpon>
+    </Compile>
+    <Compile Include="航线预算特殊页面编辑.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="航线预算特殊页面编辑.Designer.cs">
+      <DependentUpon>航线预算特殊页面编辑.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="稽核比对\业财数据稽核.resx">
+      <DependentUpon>业财数据稽核.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="主页面.resx">
       <DependentUpon>主页面.cs</DependentUpon>
     </EmbeddedResource>
@@ -190,6 +260,9 @@
     <EmbeddedResource Include="保证金管理付.resx">
       <DependentUpon>保证金管理付.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="外贸滞期费对账页面.resx">
+      <DependentUpon>外贸滞期费对账页面.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="修箱pti管理.resx">
       <DependentUpon>修箱pti管理.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +271,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="修箱港口和订舱港口映射配置.resx">
       <DependentUpon>修箱港口和订舱港口映射配置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="填写问卷.resx">
+      <DependentUpon>填写问卷.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="成本堆存费.resx">
       <DependentUpon>成本堆存费.cs</DependentUpon>
@@ -220,8 +296,32 @@
     <EmbeddedResource Include="新增保证金收.resx">
       <DependentUpon>新增保证金收.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="特殊业务模块.resx">
+      <DependentUpon>特殊业务模块.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="稽核比对\提交项配置.resx">
+      <DependentUpon>提交项配置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="稽核比对\稽核比对.resx">
+      <DependentUpon>稽核比对.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="稽核比对\稽核比对管理.resx">
+      <DependentUpon>稽核比对管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="稽核比对\航线实算剔税利润表.resx">
+      <DependentUpon>航线实算剔税利润表.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="维护参与问卷港口.resx">
+      <DependentUpon>维护参与问卷港口.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="维护有效期.resx">
       <DependentUpon>维护有效期.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="维护问卷对象.resx">
+      <DependentUpon>维护问卷对象.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="航线预算特殊页面编辑.resx">
+      <DependentUpon>航线预算特殊页面编辑.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
