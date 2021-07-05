@@ -16,7 +16,7 @@ namespace 中谷业务系统页面设计
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 主页面());
+            Application.Run(new 业财数据稽核());
         }
     }
 }
